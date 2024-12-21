@@ -1,0 +1,62 @@
+{
+  "SensorData": {
+    "1696416000000": {
+      "mq135": 120,
+      "mq2": {
+        "lpg": 40,
+        "co": 20,
+        "smoke": 25
+      },
+      "temperature": 22.5,
+      "humidity": 50.3,
+      "timestamp": 1696416000000
+    },
+    "1696416060000": {
+      "mq135": 125,
+      "mq2": {
+        "lpg": 42,
+        "co": 21,
+        "smoke": 27
+      },
+      "temperature": 22.8,
+      "humidity": 49.8,
+      "timestamp": 1696416060000
+    }
+  },
+  "AggregatedData": {
+    "Daily": {
+      "2023-10-04": {
+        "averageMq135": 122.5,
+        "averageMq2": {
+          "lpg": 41,
+          "co": 20.5,
+          "smoke": 26
+        },
+        "averageTemperature": 22.65,
+        "averageHumidity": 50.05,
+        "timestamp": 1696416000000,
+        "readingCount": 2
+      },
+      "2023-10-05": {
+        "averageMq135": 130,
+        "averageMq2": {
+          "lpg": 45,
+          "co": 22,
+          "smoke": 29
+        },
+        "averageTemperature": 23.1,
+        "averageHumidity": 48.9,
+        "timestamp": 1696502400000,
+        "readingCount": 3
+      }
+    }
+  },
+  "Settings": {
+    "thresholds": {
+      "mq135": {
+        "max": 200
+      }
+    },
+    "updateInterval": 60
+  }
+}
